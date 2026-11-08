@@ -1,7 +1,7 @@
 # Custom BCD-to-7-Segment Decoder (IC 4511 Equivalent) using Basic Logic Gates
 
 ## Project Overview & Objective
-- Design and simulate a combinational logic circuit that replicates the exact functional behavior of a standard CMOS IC 4511 BCD-to-7-Segment Decoder/Driver.
+- Design and simulate a combinational logic circuit that replicates the exact functional behavior of a standard CMOS IC CD4511 BCD-to-7-Segment Decoder/Driver.
 - Convert a 4-bit Binary Coded Decimal (BCD) input (weighted 8, 4, 2, 1) into 7 corresponding active-high segment outputs (A, B, C, D, E, F, G) to drive a 7-segment display layout.
 
 ## Hardware / Component Architecture (Logisim v2.7.1)
@@ -15,7 +15,7 @@
 
 ## How to Test and Run the Simulation
 1. Open the project file in Logisim.
-2. Navigate to the "Test" circuit containing the IC 4511 custom circuit block.
+2. Navigate to the "Test" circuit containing the IC CD4511 custom circuit block.
 3. Use the **Poke Tool** to toggle the 4 input pins (8, 4, 2, 1) between 0 and 1.
 4. Observe the 7 output pins (A to G) change states to verify correct segment activation for each decimal digit 0 through 9.
 
