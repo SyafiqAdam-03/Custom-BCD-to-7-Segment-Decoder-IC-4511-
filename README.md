@@ -10,8 +10,14 @@
 - **Output Drivers:** A bank of 7 OR gates (labeled A through G) connected to the appropriate minterms from the AND gate array to drive each individual display segment.
 - **Outputs:** 7 output indicator pins (A through G).
 
+### Circuit Implementation (Logic Gates)
+![Logic Gates Design](docs/Logic%20Gates.png)
+
 ## How to Test and Run the Simulation
-1. Open the project file (`Logisim-IC 4511.circ`) in Logisim.
+1. Open the project file in Logisim.
 2. Navigate to the "Test" circuit containing the IC 4511 custom circuit block.
 3. Use the **Poke Tool** to toggle the 4 input pins (8, 4, 2, 1) between 0 and 1.
 4. Observe the 7 output pins (A to G) change states to verify correct segment activation for each decimal digit 0 through 9.
+
+### Simulation Test Bench
+![Logic Test Bench](docs/Logic%20Test.png)
